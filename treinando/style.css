@@ -1,3 +1,29 @@
-.btn:hover{
+:root{
+
+--bg-collor : #150740;
+--hover-color : #082d09;
+--primary-color : #dfe3fe;
+}
+
+
+.menu ul li{
+    display: inline;
+    padding: 10px;
+    background-color: var(--bg-collor)
     
+    
+}
+.menu ul li a{
+    text-decoration: none;
+    color: var(--primary-color)
+}
+.menu ul li a:hover{
+    background-color: var(--hover-color)
+}
+.menu ul ul{
+    display: none;
+
+}
+.menu ul li:hover ul{
+display: block;
 }
